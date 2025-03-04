@@ -51,11 +51,11 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-bib_search: true
+socials_in_search: false
+bib_search: false
 
 # Dimensions
-max_width: 930px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: scoshi-blog # blog_name will be displayed in your blog page
+blog_description: a simple blog for all sorts of stuff
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -116,7 +116,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: scoshi # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
